@@ -1,0 +1,105 @@
+h1 {
+  -webkit-animation: color-change 3s infinite;
+  -moz-animation: color-change 3s infinite;
+  -o-animation: color-change 3s infinite;
+  -ms-animation: color-change 3s infinite;
+  animation: color-change 3s infinite;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 23px ;
+  /* padding-bottom: 30px;
+  padding-top: 60px; */
+}
+
+@-webkit-keyframes color-change {
+  0% { color: rgb(255, 0, 106); }
+  25% { color: hsl(182, 62%, 47%); }
+  50% { color: magenta; }
+  75% { color: rgb(16, 219, 16); }
+  100% { color: rgb(10, 10, 255); }
+}
+@-moz-keyframes color-change {
+  0% { color: aqua; }
+  25% { color:  hsl(182, 62%, 47%); }
+  50% { color: magenta; }
+  75% { color: rgb(16, 219, 16); }
+  100% { color: rgb(10, 10, 255); }
+}
+@-ms-keyframes color-change {
+  0% { color: aqua; }
+  25% { color: hsl(182, 62%, 47%); }
+  50% { color: magenta; }
+  75% { color: rgb(16, 219, 16); }
+  100% { color: rgb(10, 10, 255); }
+}
+@-o-keyframes color-change {
+  0% { color: aqua; }
+  25% { color: hsl(182, 62%, 47%); }
+  50% { color: magenta; }
+  75% { color: rgb(16, 219, 16); }
+  100% { color: rgb(10, 10, 255); }
+}
+@keyframes color-change {
+  0% { color: aqua; }
+  25% { color: hsl(182, 62%, 47%); }
+  50% { color: magenta; }
+  75% { color: rgb(16, 219, 16); }
+  100% { color: rgb(10, 10, 255); }
+}
+
+
+.intro {
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  padding: 6px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+}
+
+p {
+  color: white;
+}
+body{ 
+  background-color: black;
+}
+
+.list {
+  color: orange;
+}
+
+h2 {
+  color: green;
+}
+
+.testing{
+  background-position: center;
+  padding-right: 10px;
+  text-align: center;
+  position: relative; 
+  top: 0%;
+  left: 42%;
+}
+
+footer{
+  text-align: center;
+  padding-top: 5%;
+}
+
+#fun {
+  font-size: 12px;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  width: 25%;
+}
+
+nav {
+  background-color: darkturquoise;
+  margin-right: 1385px;
+}

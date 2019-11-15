@@ -1,0 +1,90 @@
+<!-- this is a page to list all the words and phrases I have taught Seran in Arabic so far. I will use the table here -->
+
+<!DOCTYPE html5>
+<html>
+  <head>
+      <script src="./teaching.js"></script>
+      <link href="teaching.css" type="text/css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+    <nav>
+      <a href="./celina.html">Main Page  &nbsp;&nbsp;</a>
+      <a href="./index.html">Projects  &nbsp;&nbsp;</a>
+      <a href="./aboutme.html">About Me  &nbsp;&nbsp;</a>
+      <a href="./teaching.html">Fun!  &nbsp;&nbsp;</a>
+    </nav>
+
+    <hr class="check" style= "width:100%; height: 1px; display: block; position: fixed; margin-bottom: 0em; padding: 0">
+
+    <!-- style= "width:100%; height: 1px; display: block; position: fixed; margin-bottom: 0em; padding: 0" -->
+
+
+    <h1 onclick="newStyle();" class="centered" id="logo">Fun!</h1>
+
+
+    <p>As you are probably aware, Seran has been trying to learn Arabic for the past couple of months so I found that this is the perfect opportunity to help him learn as well as find a place to incorporate the requirement of having a table and functioning buttons in my website. Below is a list of words and phrases I have taught Seran throughout the months. If you are having trouble reading, feel free to click on the buttons and hear the translation. </p>
+    <p id="fun">For a fun surprise, click on the word Fun!😲</p>
+    
+    <table style="width:100%">
+        <tr>
+          <th>عربى</th> <!--In this row, have the words and phrases in Arabic-->
+          <th>English</th><!--In this row, have the words and phrases translated in English-->
+          <th>Speak</th><!--In this row, have a button in each column so that when you click it it says how to pronounce the word/phrase-->
+        </tr>
+        <tr>
+          <td align="right">مرحبا</td>
+          <td>Hello</td>
+          <td align="center"><button onclick="marhaban.play()">🔊مرحبا</button></td>
+        </tr>
+
+        <tr>
+          <td align="right">كيفك <br> شلونك</td>
+          <td>How are you?</td>
+          <td align="center"><button onclick="kayfak.play()">🔊كيفك</button> <br> <button onclick="shlonak.play()">🔊شلونك</button></td>
+        </tr>
+        <tr>
+          <td align="right"> شكرا جزيلا لك <br>شكرا كتير</td>
+          <td>Thank you very much</td>
+          <td align="center"><button onclick="shukranjazeelanlak.play()">🔊شكرا جزيلا لك</button> <br> <button onclick="shukranktir.play()">🔊شكرا كتير</button></td>
+        </tr>
+        <tr>
+          <td align="right"> نعم <br>أي</td>
+          <td>Yes</td>
+          <td align="center"><button onclick="nem.play()">🔊نعم</button> <br> <button onclick="ee.play()">🔊أي</button></td>
+        </tr>
+        <tr>
+          <td align="right"> لا</td>
+          <td>No</td>
+          <td align="center"><button onclick="la.play()">🔊لا</button></td>
+        </tr>
+        <tr>
+          <td align="right"> يلا</td>
+          <td>Hurry</td>
+          <td align="center"><button onclick="yalla.play()">🔊يلا</button></td>
+        </tr>
+
+        <tr>
+          <td align="right"> انا رايحة ع البيت هلق</td>
+          <td>I am going home now</td>
+          <td align="center"><button onclick="home.play()">🔊انا رايحة ع البيت هلق</button></td>
+        </tr>
+
+        <tr>
+            <td align="right"> انا في المدرسة</td>
+            <td>I am at school</td>
+            <td align="center"><button onclick="school.play()">🔊انا في المدرسة</button></td>
+          </tr>
+
+      </table>
+
+  </body>
+
+  <footer>
+    &copy Celina Assal
+  </footer> 
+
+</html>
+
